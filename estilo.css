@@ -4,6 +4,11 @@ body{
     font-family: monospace;
 }
 
+a{
+    text-decoration: none;
+    color: #e3b062;
+}
+
 /* COMEÇO CABEÇALHO */
 
 .header{
@@ -21,7 +26,7 @@ body{
 }
 
 .header ul .atual{
-    font-weight: 800;
+    font-weight: 1000;
 }
 
 .titulo{
@@ -30,7 +35,7 @@ body{
 }
 
 .navBar{
-    color: white;
+    color: #e3b062;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -56,8 +61,11 @@ body{
 
 .banner .container{
     font-size: 36px;
-    width: 10%;
     justify-content: center;
+}
+
+.banner .container p{
+    width: 10%;
 }
 
 /* FIM DO BANNER */
@@ -102,3 +110,43 @@ body{
 }
 
 /* FIM DO FOOTER */
+
+/* -- PÁGINA LOGIN -- */
+
+/* INICIO CARD */
+
+.banner .container .card{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.card h4{
+    font-size: 16px;
+}
+
+.card input{
+    border: 3px solid palevioletred;
+    padding: 10px;
+    outline: none;
+}
+
+.card button{
+    height: 50px;
+    width: 100px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    font: 700 20px monospace;
+    color: #fff;
+    border: 0; border-radius: 4px;  
+    cursor: pointer;
+}
