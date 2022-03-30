@@ -4,15 +4,19 @@ body{
     font-family: monospace;
 }
 
+/* COMEÇO CABEÇALHO */
+
 .header{
-    border: 3px solid aqua;
+    border-bottom: 3px solid aqua;
 }
 
-.header .container{
-    border: 3px solid blue;
+.container{
     width: 80%;
     margin: auto;
     display: flex;
+}
+
+.header .container{
     justify-content: space-between;
 }
 
@@ -22,17 +26,79 @@ body{
 
 .titulo{
     color: aqua;
-    border: 3px solid red;
     width: fit-content; 
 }
 
 .navBar{
     color: white;
     list-style: none;
-    border: 3px solid green;
     display: flex;
     justify-content: space-between;
     width: 300px; 
     padding: 0;
     align-items: center;                                         
 }
+
+/* FIM CABEÇALHO */
+
+/* COMEÇO BANNER */
+
+.banner {
+    background-image: url("img/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container{
+    font-size: 36px;
+    width: 10%;
+    justify-content: center;
+}
+
+/* FIM DO BANNER */
+
+/* COMEÇO DO SOCIAL */
+
+.social {
+    background-color: beige;
+    display: flex;
+}
+
+.box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social .container .boxes .box img{
+    width: 170px;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+/* FIM DO SOCIAL */
+
+/* COMEÇO DO  FOOTER*/
+
+.footer{
+    background-color: #32b9cd;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+/* FIM DO FOOTER */
