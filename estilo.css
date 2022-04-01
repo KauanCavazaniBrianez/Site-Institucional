@@ -113,7 +113,7 @@ a{
 
 /* -- PÁGINA LOGIN -- */
 
-/* INICIO CARD */
+/* INICIO CARD LOGIN*/
 
 .banner .container .card{
     background-color: beige;
@@ -150,3 +150,73 @@ a{
     border: 0; border-radius: 4px;  
     cursor: pointer;
 }
+
+/* FIM DO CARD LOGIN */
+
+/* PAGINA CADASTRO */
+
+/* INICIO CARD CADASTRO*/
+
+.containerCadastro{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.bannerCadastro {
+    background-image: url("img/bg-jelly-fish-para_outras_pags.png");
+    height: 1000px;
+    color: white;
+    display: flex;
+}
+
+.bannerCadastro .containerCadastro p span{
+    font-weight: 1000;
+}
+
+.bannerCadastro .containerCadastro{
+    font-size: 36px;
+    justify-content: center;
+}
+
+.bannerCadastro .containerCadastro p{
+    width: 10%;
+}
+
+.bannerCadastro .containerCadastro .cardCadastro{
+    background-color: beige;
+    height: 750px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cardCadastro h1{
+    font-size: 30px;
+}
+
+.cardCadastro h4{
+    font-size: 16px;
+}
+
+.cardCadastro input{
+    border: 3px solid palevioletred;
+    padding: 10px;
+    outline: none;
+}
+
+.cardCadastro button{
+    height: 50px;
+    width: 120px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    font: 700 20px monospace;
+    color: #fff;
+    border: 0; border-radius: 4px;  
+    cursor: pointer;
+}
+
+/* FIM DO CARD CADASTRO */
