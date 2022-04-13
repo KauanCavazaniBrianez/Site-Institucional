@@ -10,9 +10,15 @@ USE acquatec;
 CREATE TABLE usuario (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	nome VARCHAR(50),
+    cpf CHAR(11),
 	email VARCHAR(50),
 	senha VARCHAR(50)
 );
+
+alter table usuario add cpf char(11);
+alter table usuario add telefone char(11);
+
+desc usuario; 
 
 CREATE TABLE aviso (
 	id INT PRIMARY KEY AUTO_INCREMENT,
@@ -29,6 +35,8 @@ CREATE TABLE medida (
 	momento DATETIME,
 	fk_aquario INT
 );
+
+select * from usuario;
 
 
 
